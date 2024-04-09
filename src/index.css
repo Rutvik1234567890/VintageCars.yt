@@ -2,11 +2,17 @@
   margin: 0;
   padding: 0;
 }
+
 body {
-  background-color: black;
+  background-image: url(https://cdn.pixabay.com/photo/2017/07/22/19/24/background-2529714_1280.jpg) ; 
+  /* background-image: url(https://cdn.pixabay.com/photo/2018/11/24/02/05/christmas-lights-3834926_1280.jpg); */
+  background-size: contain;
+  
+  
   color: white;
   font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial",
     sans-serif;
+    
 }
 body::-webkit-scrollbar{
   display: none;
@@ -25,39 +31,44 @@ body::-webkit-scrollbar{
 }
 .logo {
   width: 15%;
-  background-color: rgb(40, 18, 66);
+  background-color: black;
   padding: 15px;
   border-radius: 10px;
+  border: white 1px solid;
 }
 .seller {
   width: 15%;
-  background-color: rgb(40, 18, 66);
+  background-color:black;
   padding: 15px;
   border-radius: 10px;
+  border: white 1px solid;
 }
 .search {
   width: calc(100% - 32%);
   padding: 15px;
-  background-color: rgb(40, 18, 66);
+  background-color: black;
   border-radius: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  border: white 1px solid;
 }
 .container {
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
   padding: 15px;
+  
 }
 
 .side_bar {
   width: 15%;
   height: 80vh;
-  background-color:rgb(40, 18, 66);
+  background-color:rgb(0, 0, 0);
   border-radius: 10px;
   position: sticky;
   top: 100px;
+  border: white 1px solid;
 }
 
 .post_section {
@@ -68,10 +79,11 @@ body::-webkit-scrollbar{
   width: 17%;
  max-height: 80vh;
  overflow-y: scroll;
-  background-color:rgb(40, 18, 66);
+  background-color:black;
   border-radius: 10px;
   position: sticky;
   top: 100px;
+  border: white 1px solid;
 }
 
 .right_bar::-webkit-scrollbar{
@@ -84,6 +96,7 @@ body::-webkit-scrollbar{
   justify-content: space-between;
   flex-direction: column;
   border-radius: 10px;
+  border: white 1px solid;
 }
 
 .side_bar_content .item {
@@ -106,8 +119,9 @@ body::-webkit-scrollbar{
   gap: 1rem;
   flex-direction: column;
   margin-bottom: 30px;
-  background-color: rgb(40, 18, 66);
+  background-color: black;
   border-radius: 10px;
+  border: white 1px solid;
 }
 
 .post_img {

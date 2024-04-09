@@ -9,10 +9,12 @@ import { data,data2  } from './Data'
 
 function App() {
   return (
-    <>
-      <Navbar />
 
-     <div className="container">
+    <div className="bg">
+      
+      <Navbar />
+      
+<div className="container">
        
         <div className="side_bar">
           <Sidebar />
@@ -33,7 +35,7 @@ function App() {
         </div>
      
       </div> 
-    </>
+    </div>
   );
 }
 
